@@ -1,0 +1,222 @@
+body{
+    background: rgb(12, 13, 22);
+    color: #c0c0c0;
+    height: 1150px;   
+}
+
+body::-webkit-scrollbar{
+    padding: 10px 0px;
+}
+body::-webkit-scrollbar-thumb{
+    background: rgba(35, 34, 40, 0.644);
+    border-radius: 8px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 15px;
+  }
+
+@media (max-width: 1200px){
+    .container{
+        max-width: 970px;
+    }
+}
+@media (max-width: 992px){
+    .container{
+        max-width: 750px;
+    }
+}
+@media (max-width: 767px){
+    .container{
+        max-width: none;
+    }
+}
+  
+
+
+#btn-group{
+    text-align: center;
+    flex: 0 1 33.333%;
+}
+.youtube{
+    display: inline-block;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    left: 500px;
+    top: 15px;
+    border: none;
+    border-radius: 22px;
+    background: none;
+}
+.youtube img{
+    position: absolute;
+    left: 0px;
+    top: -1px;
+    transition: 0.35s;
+}
+.youtube:hover img{
+    transform: scale(1.08);
+}
+
+
+.vk{
+    display: inline-block;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    left: 850px;
+    top: 5px;
+    border: none;
+    border-radius: 50px;
+    background: none;
+}
+.vk img{
+    position: absolute;
+    left: 0px;
+    top: -1px;
+    transition: 0.35s;
+}
+.vk:hover img{
+    transform: scale(1.08);
+}
+
+
+.discord{
+    display: inline-block;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    left: 1200px;
+    top: 5px;
+    border: none;
+    border-radius: 50px;
+    background: none;
+
+}
+.discord img{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    transition: 0.35s;
+}
+.discord:hover img{
+    transform: scale(1.08);
+}
+
+.pohodcka{
+    display: inline-block;
+    position: absolute;
+    border-radius: 60px;    
+    padding: 0;
+    margin: 0;
+    border: none;
+    top: 680px;
+    left: 53px;
+    background: none;
+}
+
+.pohodcka img{
+    position: absolute;
+    left: -3px;
+    top: 0px;
+    transition: 0.35s;
+}
+.pohodcka:hover img{
+    transform: scale(1.02);
+}
+
+.toplay{
+    display: inline-block;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    border: none;
+    top: 680px;
+    left: 550px;
+    border-radius: 60px; 
+    background: none;
+}
+
+.toplay img{
+    position: absolute;
+    left: -3px;
+    top: 0px;
+    transition: 0.35s;
+}
+
+.toplay:hover img{
+    transform: scale(1.02);
+}
+
+.kontakti{
+    display: inline-block;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    border: none;
+    top: 680px;
+    left: 1050px;
+    border-radius: 60px; 
+    background: none;
+}
+
+.kontakti img{
+    position: absolute;
+    left: -3px;
+    top: 0px;
+    transition: 0.35s;
+}
+
+.kontakti:hover img{
+    transform: scale(1.02);
+}
+
+
+#block1{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    padding: 150px 150px;
+    border-radius: 60px;
+    background: rgb(40, 39 , 45);
+    background-image: url(../css/images/andchill.png);
+    background-size: 205px, 205px;
+    background-repeat: no-repeat;
+    background-position: 65px 80px;
+    top: -55px;
+    left: -50px;
+    transition: 0.35s;
+}
+#block1:hover{
+    transform: scale(1.05);
+}
+#block{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    padding:60px 930px ;
+    border-radius: 12px;
+    background-color: rgb(35, 34, 40);
+    top: -9px;
+    left: -6px;
+    
+
+}
+
+.amogus img{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 405px;
+    left: 80px;
+}
+.andpro img{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 250px;
+    left: 670px;
+
+}
