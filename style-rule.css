@@ -1,0 +1,351 @@
+body{
+    background: rgba(0, 0, 0, 0.842);
+    display: block;
+}
+
+@keyframes rotate{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+
+.navbar{
+    width: 100%;
+    height: 7vh;
+}
+
+.navbar .container{
+    color: rgba(255, 255, 255, 0.788);
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 150%;
+    font-family: 'Pixelify Sans', sans-serif;
+    background: rgba(0, 0, 0, 0.13);
+}
+
+.navbar-menu-header{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+
+.navbar-menu-header li{
+    display: inline-block;
+    padding: 50px;
+}
+
+.navbar-menu-header li a{
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.navbar-menu-header li a:hover{
+    background: -webkit-linear-gradient(#ffc57a , #ff769f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 160%;
+}
+
+.navbar-logo{
+        display: flex;
+        width: 180px;
+        height: 170px;
+        background: linear-gradient(#ff769f, #ffc57a);
+        animation: rotate 5s linear infinite;
+        position: absolute;
+        border-bottom-right-radius: 10px;
+}
+
+.color-back-logo{
+
+    width: 177px;
+    height: 167px;
+    border-bottom-right-radius: 10px;
+    background: #232323;
+
+}
+
+.img-logo{
+    padding: 6px;
+    transition: all 0.3s ease;
+}
+
+.img-logo:hover{
+    padding: 11px;
+    transform: rotate(0.01turn);
+}
+
+
+.wixui-rich-text-1{
+    position: relative;
+    color:aliceblue;
+    font-size: 60px;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.wixui-rich-text-2{
+    font-size: 150px;
+    color:aliceblue;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.wixui-rich-text-3{
+    font-size: 80px;
+    color:aliceblue;
+    font-family: 'Pixelify Sans', sans-serif;
+
+}
+
+.wixui-rich-text-4{
+    position: relative;
+    font-size: 80px;
+    color:aliceblue;
+    font-family: 'Pixelify Sans', sans-serif;
+
+}
+
+.wixui-rich-text-5{
+    position: relative;
+    font-size: 70px;
+    color:aliceblue;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.wixui-rich-text-6{
+    position: relative;
+    font-size: 50px;
+    background: -webkit-linear-gradient(#ffc57a , #ff769f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Pixelify Sans', sans-serif;
+
+}
+
+.wixui-rich-text-ri1{
+    position: relative;
+    font-size: 70px;
+    background: -webkit-linear-gradient(#ffc57a , #ff769f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.wixui-rich-text-ri2{
+    position: relative;
+    font-size: 30px;
+    color: aliceblue;
+    font-family: 'Russo One', sans-serif;
+
+}
+
+.hr-1{
+    margin-left: 1750px;
+    margin-top: 50px;
+}
+
+.hr-2{
+    margin-left: 1740px;
+}
+
+.hr-3{
+    margin-left: 450px;
+    margin-top: -650px;
+}
+
+.hr-4{
+    margin-left: 450px;
+    margin-top: 400px;
+}
+
+.hr-5{
+    margin-left: 450px;
+    margin-top: 450px;
+}
+.hr-6{
+    margin-left: 450px;
+}
+
+
+
+.warp-block{
+    width: 100%;
+    height: auto;
+}
+
+.img-block-container img{
+    padding-top: 800px;
+    padding-left: 600px;
+}
+
+.img-block-wh-1{
+    margin-top: -2950px;
+}
+
+.img-block-wh-2{
+    margin-top: -650px;
+}
+
+.img-block-container-sr img{
+    transform: rotate(0.14turn);
+}
+
+.sr-1{
+    margin-left: 350px;
+    margin-top: -800px;
+    margin-bottom: 300px;
+}
+
+.sr-2{
+    margin-left: 350px;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;              
+  }
+body::-webkit-scrollbar-track {
+    background: none;      
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #232323; 
+}
+
+
+@media screen and (max-width: 1460px) {
+
+    .wixui-rich-text-1{
+        position: relative;
+        color:aliceblue;
+        font-size: 50px;
+        font-family: 'Pixelify Sans', sans-serif;
+    }
+    
+    .wixui-rich-text-2{
+        font-size: 150px;
+        color:aliceblue;
+        font-family: 'Pixelify Sans', sans-serif;
+    }
+    
+    .wixui-rich-text-3{
+        font-size: 50px;
+        color:aliceblue;
+        font-family: 'Pixelify Sans', sans-serif;
+    
+    }
+    
+    .wixui-rich-text-4{
+        position: relative;
+        font-size: 50px;
+        color:aliceblue;
+        font-family: 'Pixelify Sans', sans-serif;
+    
+    }
+    
+    .wixui-rich-text-5{
+        position: relative;
+        font-size: 50px;
+        color:aliceblue;
+        font-family: 'Pixelify Sans', sans-serif;
+    }
+    
+    .wixui-rich-text-6{
+        position: relative;
+        font-size: 40px;
+        background: -webkit-linear-gradient(#ffc57a , #ff769f);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: 'Pixelify Sans', sans-serif;
+    
+    }
+    
+    .wixui-rich-text-ri1{
+        position: relative;
+        font-size: 50px;
+        background: -webkit-linear-gradient(#ffc57a , #ff769f);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: 'Pixelify Sans', sans-serif;
+    }
+    
+    .wixui-rich-text-ri2{
+        position: relative;
+        font-size: 15px;
+        color: aliceblue;
+        font-family: 'Russo One', sans-serif;
+    
+    }
+
+    .hr-1{
+        margin-left: 1100px;
+        margin-top: 100px;
+    }
+    
+    .hr-2{
+        margin-left: 1100px;
+    }
+    
+    .hr-3{
+        margin-left: 350px;
+        margin-top: -550px;
+    }
+    
+    .hr-4{
+        margin-left: 350px;
+        margin-top: 400px;
+    }
+    
+    .hr-5{
+        margin-left: 350px;
+        margin-top: 450px;
+    }
+    .hr-6{
+        margin-left: 350px;
+    }
+
+    .img-block-container img{
+        padding-top: 800px;
+        padding-left: 400px;
+    }
+    
+    .img-block-wh-1{
+        margin-top: -2550px;
+    }
+    
+    .img-block-wh-2{
+        margin-top: -650px;
+    }
+    
+    .img-block-container-sr img{
+        transform: rotate(0.14turn);
+    }
+    
+    .sr-1{
+        margin-left: 200px;
+        margin-top: -800px;
+        margin-bottom: 300px;
+    }
+    
+    .sr-2{
+        margin-left: 200px;
+    }
+    
+
+}
+
+@media screen and (max-width: 1200px) {
+
+}
+
+
+@media screen and (max-width: 1000px) {
+
+}
+
+@media screen and (max-width: 785px) {
+  
+}
