@@ -12,6 +12,11 @@ body{
     }
 }
 
+@keyframes ani {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+
 .navbar{
     width: 100%;
     height: 7vh;
@@ -70,6 +75,7 @@ body{
 }
 
 .img-logo{
+    z-index: 10000;
     padding: 6px;
     transition: all 0.3s ease;
 }
@@ -82,12 +88,16 @@ body{
 .navbar-wr{
     width: 100%;
     height: auto;
+    opacity: 0;
+    animation: ani 2.5s forwards;
 }
 
 .img-block-logo{
     position: absolute;
     margin-left: 34%;
     margin-top: 2%;
+    opacity: 0;
+    animation: ani 2.5s forwards;
 }
 
 .navbar-menu-block{
