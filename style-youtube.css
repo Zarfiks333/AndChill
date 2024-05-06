@@ -98,17 +98,20 @@ body{
     margin-top: 2%;
 }
 
-.navbar-wr{
+.warp-block{
     width: 100%;
     height: auto;
     opacity: 0;
     animation: ani 2.5s forwards;
 }
 
-.rd-2{
-    display: flex;
-    justify-content: center;
-    font-size: 150px; 
+.navbar-block-contant{
+    padding-top: 180px;
+    padding-left: 450px;
+}
+
+.wixui-rich-text-2{
+    font-size: 50px; 
     font-family: 'Pixelify Sans', sans-serif;
     background: -webkit-linear-gradient(#ffc57a , #ff769f);
     -webkit-background-clip: text;
@@ -116,4 +119,68 @@ body{
 
 }
 
+.hr-1{
+    padding-top: 20px;
+    color: aliceblue;
+    width: 330px;
+    height: 250px;
+}
+
+.rs-1{
+    display: inline-block;
+}
+
+.nick{
+    border-radius: 5px;
+    background: #ffffff2c;
+    font-size: 25px; 
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.op-1{
+    padding-top: 15px;
+    font-size: 15px;
+}
+
+.img-hat{
+    float: right;
+}
+
+.tw-1{
+    font-size: 20px;
+    color: blueviolet;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.yt-1{
+    font-size: 20px;
+    color: #e22d2d;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+@media screen and (max-width: 1570px) {
+    .navbar-block-contant{
+        padding-top: 180px;
+        padding-left: 270px;
+    }
+
+    .img-block-logo{
+        position: absolute;
+        margin-left: 29%;
+        margin-top: 3%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .navbar-block-contant{
+        padding-top: 180px;
+        padding-left: 150px;
+    }
+
+    .img-block-logo{
+        position: absolute;
+        margin-left: 24%;
+        margin-top: 4%;
+    }
+}
 
