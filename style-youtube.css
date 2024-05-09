@@ -158,6 +158,16 @@ body{
     font-family: 'Pixelify Sans', sans-serif;
 }
 
+.tw-1:hover{
+    color: rgba(137, 43, 226, 0.637);
+}
+
+.yt-1:hover{
+    color: #e22d2daf;
+}
+
+
+
 @media screen and (max-width: 1570px) {
     .navbar-block-contant{
         padding-top: 180px;
@@ -181,6 +191,9 @@ body{
         position: absolute;
         margin-left: 24%;
         margin-top: 4%;
+    }
+    .wixui-rich-text-2{
+        font-size: 40px;
     }
 }
 
