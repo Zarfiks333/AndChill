@@ -75,7 +75,7 @@ body{
 }
 
 .img-logo{
-    z-index: 10000;
+    z-index: 1;
     padding: 6px;
     transition: all 0.3s ease;
 }
@@ -101,6 +101,7 @@ body{
 }
 
 .navbar-menu-block{
+    z-index: 2;
     display: flex;
     justify-content: center;
 }

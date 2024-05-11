@@ -77,7 +77,7 @@ body{
 }
 
 .img-logo{
-    z-index: 10000;
+    z-index: 1;
     padding: 6px;
     transition: all 0.3s ease;
 }
@@ -142,6 +142,7 @@ body{
 }
 
 .navbar-block-contant{
+    z-index: 2;
     padding-top: 50px;
     padding-left: 450px;
     align-items: center;
